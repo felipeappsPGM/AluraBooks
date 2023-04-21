@@ -11,6 +11,10 @@ hr {
     display: none;
 }
 
+.lista__rodape-link:hover {
+    color: var(--laranja);
+}
+
 @media screen and (min-width: 1024px) {
     .rodape {
         display: flex;
@@ -43,6 +47,12 @@ hr {
     .rodape__titulo {
         font-size: 24px;
     }
+
+    .lista__rodape-link:hover {
+        color: var(--laranja);
+    }
+
+
 }
 
 @media screen and (min-width: 1728px) {
@@ -53,5 +63,9 @@ hr {
 
     .rodape {
         padding: 3em 0;
+    }
+
+    .lista__rodape-link:hover {
+        color: var(--laranja);
     }
 }
